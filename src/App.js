@@ -5,55 +5,55 @@ function App() {
         <h1>Courses 4 Arab</h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="#">
+            <a className="main-link" href="#test">
               HTML
             </a>
             <ul className="sub-ul">
               <li>
-                <a href="">Full Course</a>
+                <a href="#test">Full Course</a>
               </li>
               <li>
-                <a href="">Crash Course</a>
+                <a href="#test">Crash Course</a>
               </li>
               <li>
-                <a href="">learn in 1h</a>
+                <a href="#test">learn in 1h</a>
               </li>
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="#">
+            <a className="main-link" href="#test">
               CSS
             </a>
             <ul className="sub-ul">
               <li>
-                <a href="">Full Course</a>
+                <a href="#test">Full Course</a>
               </li>
               <li>
-                <a href="">CSS Examples</a>
+                <a href="#test">CSS Examples</a>
               </li>
               <li className="mini-projects">
-                <a href="">mini projects&nbsp; + </a>
+                <a href="#test">mini projects&nbsp; + </a>
                 <ul className="sub-sub-ul">
                   <li>
-                    <a href="">project 1</a>
+                    <a href="#test">project 1</a>
                   </li>
                   <li>
-                    <a href="">project 2</a>
+                    <a href="#test">project 2</a>
                   </li>
                   <li>
-                    <a href="">project 3</a>
+                    <a href="#test">project 3</a>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="#">
+            <a className="main-link" href="#test">
               JavaScript
             </a>
             <ul className="sub-ul sub-of-js">
               <li>
-                <a href="">coming soon🔥</a>
+                <a href="#test">coming soon🔥</a>
               </li>
             </ul>
           </li>
@@ -73,13 +73,13 @@ function App() {
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <a href="#test">Full Course</a>
               </li>
               <li>
-                <a href="">Crash Course</a>
+                <a href="#test">Crash Course</a>
               </li>
               <li>
-                <a href="">learn in 1h</a>
+                <a href="#test">learn in 1h</a>
               </li>
             </ul>
           </div>
@@ -90,10 +90,10 @@ function App() {
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <a href="#test">Full Course</a>
               </li>
               <li>
-                <a href="">CSS Examples</a>
+                <a href="#test">CSS Examples</a>
               </li>
               <li>
                 <label className="mini-projects" htmlFor="mini">
@@ -102,13 +102,13 @@ function App() {
                 <input id="mini" type="checkbox" />
                 <ul className="sub-sub-div">
                   <li>
-                    <a href="">project 1</a>
+                    <a href="#test">project 1</a>
                   </li>
                   <li>
-                    <a href="">project 2</a>
+                    <a href="#test">project 2</a>
                   </li>
                   <li>
-                    <a href="">project 3</a>
+                    <a href="#test">project 3</a>
                   </li>
                 </ul>
               </li>
@@ -121,7 +121,7 @@ function App() {
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">coming soon🔥</a>
+                <a href="#test">coming soon🔥</a>
               </li>
             </ul>
           </div>
