@@ -1,66 +1,67 @@
+import { Link, NavLink } from "react-router-dom";
+
 function Header(){
   return (
     <>
       <header className="hide-when-mobile">
-        <h1>Courses 4 Arab</h1>
+        <h1><NavLink to="/">Courses 4 Arab</NavLink></h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="#test">
+            <NavLink className="main-link" to="/html">
               HTML
-            </a>
+            </NavLink>
             <ul className="sub-ul">
               <li>
-                <a href="#test">Full Course</a>
+                <Link to="#test">Full Course</Link>
               </li>
               <li>
-                <a href="#test">Crash Course</a>
+                <Link to="#test">Crash Course</Link>
               </li>
               <li>
-                <a href="#test">learn in 1h</a>
+                <Link to="#test">learn in 1h</Link>
               </li>
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="#test">
+            <NavLink className="main-link" to="/css">
               CSS
-            </a>
+            </NavLink>
             <ul className="sub-ul">
               <li>
-                <a href="#test">Full Course</a>
+                <Link to="#test">Full Course</Link>
               </li>
               <li>
-                <a href="#test">CSS Examples</a>
+                <Link to="#test">CSS Examples</Link>
               </li>
               <li className="mini-projects">
-                <a href="#test">mini projects&nbsp; + </a>
+                <Link to="#test">mini projects&nbsp; + </Link>
                 <ul className="sub-sub-ul">
                   <li>
-                    <a href="#test">project 1</a>
+                    <Link to="#test">project 1</Link>
                   </li>
                   <li>
-                    <a href="#test">project 2</a>
+                    <Link to="#test">project 2</Link>
                   </li>
                   <li>
-                    <a href="#test">project 3</a>
+                    <Link to="#test">project 3</Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="#test">
+            <NavLink className="main-link" to="/javascript">
               JavaScript
-            </a>
+            </NavLink>
             <ul className="sub-ul sub-of-js">
               <li>
-                <a href="#test">coming soon🔥</a>
+                <Link to="#test">coming soon🔥</Link>
               </li>
             </ul>
-          </li>
+          </li> 
         </ul>
       </header>
 
-      
       <header className="show-when-mobile">
         <h1>Courses 4 Arab</h1>
         <label className="absolute" htmlFor="burger">
@@ -75,13 +76,13 @@ function Header(){
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="#test">Full Course</a>
+                <Link to="#test">Full Course</Link>
               </li>
               <li>
-                <a href="#test">Crash Course</a>
+                <Link to="#test">Crash Course</Link>
               </li>
               <li>
-                <a href="#test">learn in 1h</a>
+                <Link to="#test">learn in 1h</Link>
               </li>
             </ul>
           </div>
@@ -92,10 +93,10 @@ function Header(){
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="#test">Full Course</a>
+                <Link to="#test">Full Course</Link>
               </li>
               <li>
-                <a href="#test">CSS Examples</a>
+                <Link to="#test">CSS Examples</Link>
               </li>
               <li>
                 <label className="mini-projects" htmlFor="mini">
@@ -104,13 +105,13 @@ function Header(){
                 <input id="mini" type="checkbox" />
                 <ul className="sub-sub-div">
                   <li>
-                    <a href="#test">project 1</a>
+                    <Link to="#test">project 1</Link>
                   </li>
                   <li>
-                    <a href="#test">project 2</a>
+                    <Link to="#test">project 2</Link>
                   </li>
                   <li>
-                    <a href="#test">project 3</a>
+                    <Link to="#test">project 3</Link>
                   </li>
                 </ul>
               </li>
@@ -123,13 +124,12 @@ function Header(){
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="#test">coming soon🔥</a>
+                <Link to="#test">coming soon🔥</Link>
               </li>
             </ul>
           </div>
         </div>
       </header>
-
     </>
   );
 }

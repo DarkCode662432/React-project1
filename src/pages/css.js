@@ -1,19 +1,15 @@
 import Header from "../components/header";
+import Footer from "../components/footer";
+import MainContent from "../components/main-content";
 
 function Css(){
   return (
     <>
-      <Header></Header>
+      <Header/>
 
-      <main>
-        Css Page
-      </main>
+      <MainContent pageName="CSS"/>
 
-
-      <footer>
-        Designed and developed by Courses4Arab.com
-        <span>🧡</span>
-      </footer>
+      <Footer/>
     </>
   );
 }

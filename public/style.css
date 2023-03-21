@@ -73,12 +73,39 @@ h1 {
   padding: 8px 15px;
 }
 
+
+.main-link.active {
+  color: yellowgreen;
+  font-weight: bold;
+  position: relative;
+}
+
 .main-link:hover {
   color: cyan;
   box-shadow: 0 0 5px cyan;
   border-radius: 5px;
 }
 
+.main-link.active::after {
+  content: " ";
+  background-color: yellowgreen;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  left: 0;
+  bottom: 0;
+}
+
+
+.main-link.active:hover {
+  color: yellow;
+  box-shadow: none;
+}
+
+.main-link.active:hover::after {
+  background-color: yellow;
+}
 /* =======================================
    1.1 sub HTML + css + JavaScript
 ======================================== */

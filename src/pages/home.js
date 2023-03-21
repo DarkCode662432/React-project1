@@ -1,18 +1,15 @@
 import Header from "../components/header";
+import Footer from "../components/footer";
+import MainContent from "../components/main-content";
 
 function Home(){
   return (
     <>
-      <Header></Header>  
-      <main>
-        Home Page
-      </main>
-
-
-      <footer>
-        Designed and developed by Courses4Arab.com
-        <span>🧡</span>
-      </footer>
+      <Header/> 
+    
+      <MainContent pageName="HOME"/>
+    
+      <Footer/>
     </>
   );
 }
