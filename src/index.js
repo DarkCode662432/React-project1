@@ -4,6 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 import './index.css';
 import Home from './pages/home';
@@ -40,3 +41,5 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+serviceWorkerRegistration.register();
